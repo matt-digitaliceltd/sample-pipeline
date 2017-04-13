@@ -1,1 +1,1 @@
-echo $BRANCH
+echo $branchName
