@@ -1,5 +1,6 @@
 def buildType = ''
 script {
+  println env.branch
   buildType = 'RC'
 }
 node {
