@@ -1,1 +1,1 @@
-export HELLO_WORLD='hello world'
+echo "RC"
