@@ -1,5 +1,5 @@
 node {
   checkout scm
   sh './check_branch.sh'
-  echo "$HELLO_WORLD"
+  echo env.HELLO_WORLD
 }
