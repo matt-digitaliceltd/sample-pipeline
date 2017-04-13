@@ -24,5 +24,7 @@ node {
   echo "type: $buildType, name: $branchName, stream: $devStream"
 
   env.branchName = branchName
+  env.buildType = buildType
+  env.devStream = devStream
   sh './check_branch.sh'
 }
