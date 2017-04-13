@@ -6,7 +6,7 @@ script {
     branchName = BRANCH_OTHER
     buildType = 'DEV'
     devStream = 'OTHER'
-  } else if (BRANCH ==~ /Releases\/.+$/) {
+  } else if (BRANCH ==~ /.*Releases\/.+$/) {
     branchName = BRANCH
     buildType = 'RC'
     devStream = 'Release'
