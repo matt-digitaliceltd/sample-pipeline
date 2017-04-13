@@ -2,7 +2,7 @@ def branchName = ''
 def buildType = ''
 def devStream = ''
 script {
-  if (BRANCH = 'OTHER') {
+  if (BRANCH == 'OTHER') {
     branchName = BRANCH_OTHER
     buildType = 'DEV'
     devStream = 'OTHER'
