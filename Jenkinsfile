@@ -1,7 +1,7 @@
 node {
   checkout scm
 
-  buildType = sh 'check_branch.sh', returnStdout: true
+  buildType = sh(script: 'check_branch.sh', returnStdout: true)
 
   environment {
     HELLO_WORLD_SECOND='hello world 2'
