@@ -6,8 +6,6 @@ node {
   environment {
     HELLO_WORLD_SECOND='hello world 2'
   }
-  echo ${buildType}
-  echo ${env.HELLO_WORLD}
-  echo ${env.HELLO_WORLD_SECOND}
+  echo "$buildType"
   sh 'printenv'
 }
