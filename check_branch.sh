@@ -1,1 +1,1 @@
-echo "RC"
+echo $BRANCH

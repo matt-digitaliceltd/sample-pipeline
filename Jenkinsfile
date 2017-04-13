@@ -23,4 +23,5 @@ node {
 
   echo "type: $buildType, name: $branchName, stream: $devStream"
 
+  sh './check_branch.sh'
 }
